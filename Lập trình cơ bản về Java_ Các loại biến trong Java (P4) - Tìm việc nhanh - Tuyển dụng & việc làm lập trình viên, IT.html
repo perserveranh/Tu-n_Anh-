@@ -1,0 +1,1323 @@
+<!DOCTYPE html>
+<!-- saved from url=(0072)http://smartjob.vn/lap-trinh-co-ban-ve-java-cac-loai-bien-trong-java-p4/ -->
+<html lang="en-US" prefix="og: http://ogp.me/ns#" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	More info: h5bp.com/i/378 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 
+	
+	<meta name="alexaVerifyID" content="1qN4FGcM5bHSYuEmnRvYfcdrsBo">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+		<!--  -->
+	<link rel="pingback" href="http://smartjob.vn/xmlrpc.php">
+				<link rel="shortcut icon" href="http://smartjob.vn/wp-content/uploads/2015/10/favicon2-28x28.png">
+			<!-- enqueue json library for ie 7 or below -->
+	<!--[if LTE IE 7]>
+			<![endif]-->
+	
+	
+<!-- This site is optimized with the Yoast SEO plugin v3.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Lập trình cơ bản về Java: Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT</title>
+<meta name="robots" content="noodp">
+<link rel="canonical" href="http://smartjob.vn/lap-trinh-co-ban-ve-java-cac-loai-bien-trong-java-p4/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Lập trình cơ bản về Java: Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT">
+<meta property="og:description" content="Để học những bước đầu về lập trình cơ bản, ta cần hiểu rõ được thế nào là biến trong Java. Trong bài viết trước Smartjob.vn đã giới thiệu với bạn đọc về Lớp trong Java. Hôm nay, chúng tôi xin giới thiệu đến các bạn các loại Biến trong lập trình cơ bản về …">
+<meta property="og:url" content="http://smartjob.vn/lap-trinh-co-ban-ve-java-cac-loai-bien-trong-java-p4/">
+<meta property="og:site_name" content="Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT">
+<meta property="article:tag" content="học lập trình">
+<meta property="article:tag" content="java">
+<meta property="article:tag" content="lập trình">
+<meta property="article:tag" content="lập trình java">
+<meta property="article:tag" content="lập trình java cơ bản">
+<meta property="article:tag" content="lập trình web">
+<meta property="article:tag" content="lập trình web cơ bản">
+<meta property="article:tag" content="lập trình web với java">
+<meta property="article:section" content="Cẩm nang lập trình">
+<meta property="article:published_time" content="2016-01-06T03:10:52+00:00">
+<meta property="article:modified_time" content="2016-04-07T10:45:04+00:00">
+<meta property="og:updated_time" content="2016-04-07T10:45:04+00:00">
+<meta property="og:image" content="http://smartjob.vn/wp-content/uploads/2016/01/lap-trinh-co-ban-8.jpg">
+<meta property="og:image:width" content="1920">
+<meta property="og:image:height" content="1080">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:description" content="Để học những bước đầu về lập trình cơ bản, ta cần hiểu rõ được thế nào là biến trong Java. Trong bài viết trước Smartjob.vn đã giới thiệu với bạn đọc về Lớp trong Java. Hôm nay, chúng tôi xin giới thiệu đến các bạn các loại Biến trong lập trình cơ bản về […]">
+<meta name="twitter:title" content="Lập trình cơ bản về Java: Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT">
+<meta name="twitter:image" content="http://smartjob.vn/wp-content/uploads/2016/01/lap-trinh-co-ban-8.jpg">
+<!-- / Yoast SEO plugin. -->
+
+<link rel="dns-prefetch" href="http://ajax.googleapis.com/">
+<link rel="dns-prefetch" href="http://s.w.org/">
+<link rel="alternate" type="application/rss+xml" title="Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT » Lập trình cơ bản về Java: Các loại biến trong Java (P4) Comments Feed" href="http://smartjob.vn/lap-trinh-co-ban-ve-java-cac-loai-bien-trong-java-p4/feed/">
+		<script src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/cb=gapi.loaded_1" async=""></script><script src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/cb=gapi.loaded_0" async=""></script><script id="facebook-jssdk" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/sdk.js"></script><script type="text/javascript" async="" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/atrk.js"></script><script async="" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/analytics.js"></script><script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/smartjob.vn\/wp-includes\/js\/wp-emoji-release.min.js?ver=973e269545e18d51a619e5bfd47330e2"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/wp-emoji-release.min.js" type="text/javascript"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+		<style type="text/css">
+			.form-item .input-date{
+				position: relative;
+			}
+			.form-item .input-date .icon.icon-date{
+				position: absolute;
+				top: 13px;
+				left: 10px;
+				right: 0;
+				width: 10px;
+			}
+			.form-item .input-date > input{
+				padding-left: 30px;
+				width: 250px !important;
+			}
+			.form-item .input-date .icon[data-icon="!"]{
+				right: 200px;
+			}
+
+			.modal-job .form-item .error.input-date input{
+				width: 240px;
+			}
+			.modal-job .form-item .error.input-date .icon[data-icon="!"]{
+				right: 245px;
+			}
+			.post-a-job .form-item .error {
+				width: 485px;
+			}
+			#resume_file_thumbnail{
+				width: 100%;
+				display: block;
+				overflow: hidden;
+			}
+			span.file-item{
+				padding: 3px;
+				white-space:nowrap;
+				text-overflow: ellipsis;
+				float: left;
+				position: relative;
+			}
+			span.thumb-item img{
+				max-width: 150px;
+				max-height: 150px;
+			}
+
+			#resume_file_thumbnail span.file-url{
+				position: relative;
+			}
+			.inline-edit .form-item-field div{
+				margin-left: 0;
+			}
+			span.file-item:hover span{
+				opacity: 1 !important;
+			}
+			span.delete{
+
+				opacity: 0;
+				height: 15px;
+				z-index: 10;
+				display: inline-block;
+
+			}
+			span.delete:hover{
+				background: #ccc;
+				opacity: 0.8;
+			}
+
+			span.delete a{
+				cursor: pointer;
+				position: relative;
+				color: # 000!important;
+				background: #ccc;
+				padding:0 3px;
+			}
+			span.delete  a:hover{
+				opacity: 1 !important;
+			}
+			span.delete .icon:before{
+				color: #000 !important;
+				content: "#" !important;
+			}
+			span.thumb-item{
+				position: relative;
+				display: inline-block;
+				margin-right: 10px;
+			}
+			span.thumb-item a.del-thumbnail{
+
+				position: absolute;
+				top:-10px;
+				cursor: pointer;
+				right:-10px;
+				z-index: 10;
+			}
+			span.thumb-item:hover span.delete,
+			span.thumb-item:hover a.del-thumbnail{
+				opacity: 1 !important;
+			}
+			.form-item-field .input-file .button-upload {
+			    cursor: pointer;
+			    display: block;
+			    font-weight: bold;
+			    height: 20px;
+			    margin-top: 5px;
+			    padding: 10px 40px 10px 15px;
+			    width: 85px !important;
+			}
+			.field-thumb{
+				overflow: hidden;
+				padding-top: 20px;
+				display: block;
+			}
+			.row-checkbox {
+				position: relative;
+				padding-bottom: 25px;
+			}
+			.row-checkbox .message{
+				position: absolute;
+				bottom: -15px;
+			}
+			.post-a-job .form-item .row-checkbox   input{
+				width: 30px;
+			}
+			.post-a-job .form-item .row-checkbox   input,
+			.post-a-job .form-item .row-checkbox   label{
+				display: inline;
+				padding: 0 5px;
+			}
+			.post-a-job  .form-item .row-checkbox span.icon{
+				bottom: -5px;
+				top: auto;
+				display: none;
+			}
+			.je-field-radio .jse-input{
+				width: 100px;
+			}
+			.jse-radio input[type=radio]{
+				width: 20px !important;
+			}
+			.je-radio-value{ font-weight: bold; padding-top: 15px;}
+			.post-a-job .je-field-radio .error input{
+				width: 10px;
+			}
+			.post-a-job .je-field-radio .error .message{
+				position: absolute;
+			}
+		</style>
+	<link rel="stylesheet" id="crayon-css" href="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/crayon.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="jobseeker_style-css" href="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/custom-jseeker.css" type="text/css" media="all">
+<link rel="stylesheet" id="screen-css" href="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/screen.css" type="text/css" media="screen">
+<link rel="stylesheet" id="font-face-css" href="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/font-face.css" type="text/css" media="all">
+<link rel="stylesheet" id="boilerplate-css" href="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/boilerplate.css" type="text/css" media="all">
+<link rel="stylesheet" id="custom-css" href="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/custom.css" type="text/css" media="all">
+<link rel="stylesheet" id="job-label-css" href="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/job-label.css" type="text/css" media="all">
+<link rel="stylesheet" id="customization-css" href="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/customization.css" type="text/css" media="all">
+<link rel="stylesheet" id="stylesheet-css" href="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="query-ui-style-css" href="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/jquery-ui.css" type="text/css" media="all">
+<script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/jquery.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"_2.7.2_beta","is_admin":"0","ajaxurl":"http:\/\/smartjob.vn\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"Press %s to Copy, %s to Paste","minimize":"Click To Expand Code"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/crayon.min.js"></script>
+<link rel="https://api.w.org/" href="http://smartjob.vn/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://smartjob.vn/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://smartjob.vn/wp-includes/wlwmanifest.xml"> 
+
+<link rel="shortlink" href="http://smartjob.vn/?p=1711">
+<link rel="alternate" type="application/json+oembed" href="http://smartjob.vn/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fsmartjob.vn%2Flap-trinh-co-ban-ve-java-cac-loai-bien-trong-java-p4%2F">
+<link rel="alternate" type="text/xml+oembed" href="http://smartjob.vn/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fsmartjob.vn%2Flap-trinh-co-ban-ve-java-cac-loai-bien-trong-java-p4%2F&amp;format=xml">
+		<style type="text/css">
+			.widget-job-alert {
+				padding: 20px;
+			}
+
+			.widget-job-alert .form-item {
+			    border-bottom: 0;
+			    font-size: 1em;
+			    padding: 0;
+			}
+
+			.widget-job-alert .select-style,
+			.widget-job-alert .btn-subscribe {
+				width: 200px;
+				height: 36px;
+				margin: 0;
+			}
+             /*
+			.widget-job-alert .select-style select { width: 100%; }
+			.widget-job-alert .select-style span.select { width: 190px; }
+               */
+			.widget-job-alert .select-style { margin-bottom: 20px; }
+
+			.widget-job-alert input {
+				padding: 0 10px;
+				width: 178px !important;
+				height: 36px !important;
+				line-height: 1;
+				margin-bottom: 20px
+			}
+
+			.widget-job-alert .btn-subscribe {
+				text-align: left;
+				position: relative;
+				padding: 0 10px;
+				font-weight: bold;
+				border: 0;			
+			}
+
+			.widget-job-alert .btn-subscribe span {
+			    line-height: 31px;
+			    position: absolute;
+			    right: 10px;
+			    top: 0;
+			}
+
+			/*** update 2013-03-06 ***/
+			.widget-job-alert .form-item.error div {
+				background: none;
+				padding: 3px;
+				margin: -20px 0px 5px;
+				
+				font-style: italic;
+				font-size: 0.9em;
+				font-weight: normal;
+			}
+		.widget-job-alert form .margin0{
+	          margin-left:0px;
+			
+			  display:block;
+			  margin-bottom:15px;
+		    border-radius: 3px;
+		    box-shadow: 0 1px 3px #E7E7E7 inset;
+			
+           }
+           #container .margin0.btn-background{
+	              border:none;
+                 display: block;
+           }
+           .widget-job-alert form .form-item.margintop{
+				margin-top:15px;
+           }
+			.widget-job-alert .form-item.error { color: #c67272; }
+			.widget-job-alert .form-item.error input { border-color: #c67272; }
+			.widget-job-alert .form-item input:invalid { background: #fff; }
+			
+		</style>
+	<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//smartjob.vn/?wordfence_logHuman=1&hid=E5CECCD48AAC6ABA7011FF811B0FA123');
+</script>			<script type="text/javascript">
+				var detectBrowser = function () {
+					var isOpera = this.check(/opera/);
+					var isIE = !isOpera && check(/msie/);
+					var isIE8 = isIE && check(/msie 8/);
+					var isIE7 = isIE && check(/msie 7/);
+					var isIE6 = isIE && check(/msie 6/);
+
+					if( ( isIE6 || isIE7 )  ) window.location	=	'http://smartjob.vn/unsupported/';
+				}
+
+				var check  = function (r) {
+					var ua = navigator.userAgent.toLowerCase();
+					return r.test(ua);
+				}
+				detectBrowser ();
+
+			</script>
+
+			        <meta property="og:url" content="http://smartjob.vn/lap-trinh-co-ban-ve-java-cac-loai-bien-trong-java-p4/">
+        <meta property="og:title" content="Lập trình cơ bản về Java: Các loại biến trong Java (P4)">
+        <meta property="og:description" content="Để học những bước đầu về lập trình cơ bản, ta cần hiểu rõ được thế nào là biến trong Java.
+Trong bài viết trước Smartjob.vn đã giới thiệu với bạn đọc về Lớp trong Java. Hôm nay, chúng tôi xin giới thiệu đến các bạn các loại Biến trong lập trình cơ bản về Java.
+Biến là vùng nhớ dùng để lưu trữ các giá trị của chương trình. Mỗi biến gắn liền với một kiểu dữ liệu và một định danh duy nhất gọi là tên biến. Trong lập trình cơ bản về Java, tất cả các biến phải được khai báo trước khi sử dụng. Cấu trúc cơ bản của việc khai báo các biến như sau:
+type identifier [ = value][, identifier [= value] …] ;
+Trong đó:
+Type (tag vào bài) là một trong những kiểu dữ liệu của Java.
+Identifer (tag vào bài) là tên của biến.
+Để khai báo nhiều hơn một biến của cùng một kiểu dữ liệu, sử dụng dấu phẩy (,) để phân tách chúng.
+Trong lập trình cơ bản về Java, chúng ta có 3 loại biến:
+
+Biến địa phương (Local variables)
+Biến thể hiện (Instance variables)
+Biến của lớp/biến tĩnh (Class/Static variables)
+
+
+Biến địa phương (Local variables)
+
+Trong lập trình cơ bản về Java, biến địa phương được khai báo bên trong các method (phương thức), constructor(phương thức khởi tạo), hoặc block (khối lệnh).
+Các biến được tạo ra khi phương thức, constructor hoặc block được gọi và biến này sẽ bị hủy ngay khi thực hiện xong phương thức, constructor hoặc khối kết thúc.
+Các giới hạn truy xuất (access modifier) không được dùng cho các biến loại này
+Các biến local chỉ nhìn thấy trong phương thức, constructor, hoặc khối được khai báo.
+Các biến local được thực thi nội bộ.
+Không có giá trị mặc định nào cho các biến local, vì thế các biến local nên được khai báo và một giá trị khởi tạo nên được gán trước khi sử dụng.
+Ví dụ:
+Ở đây, tuoi là biến local. Nó được định nghĩa bên trong phương thức tuoiCon() và phạm vi của nó được giới hạn chỉ trong phương thức này.
+public class Test{
+public void tuoiCon(){
+int tuoi = 0;
+tuoi = tuoi + 10;
+System.out.println(“Tuoi con la : ” + tuoi);
+}
+public static void main(String args[]){
+Test test = new Test();
+test.tuoiCon();
+}
+}
+2. Biến thể hiện (Instance variables)
+Các biến instance được khai báo trong một lớp, nhưng ở bên ngoài một phương thức, constructor hoặc bất kỳ khối nào.
+Khi một không gian nhớ được cấp phát cho một đối tượng trong một heap (một dạng cấu trúc hàng đợi có thứ tự ưu tiên), một slot cho mỗi giá trị biến instance được tạo ra.
+Các biến instance được tạo khi một đối tượng được tạo bởi sử dụng từ khóa new và bị hủy khi đối tượng bị hủy.
+Các biến instance giữ các giá trị mà phải được tham chiếu bởi nhiều hơn một phương thức, constructor hoặc khối, hoặc các phần chủ yếu của trạng thái đối tượng mà phải có mặt xuyên suốt lớp đó.
+Các biến instance có thể được khai báo trong mức độ lớp trước hoặc sau khi sử dụng.
+Chỉ định truy cập (access modifier) có thể được cung cấp cho các biến instance.
+Các biến instance là nhìn thấy với tất cả các phương thức, constructor, và khối trong lớp. Tuy nhiên, tính nhìn thấy cho các lớp phụ có thể được cung cấp cho những biến này với sự sử dụng của chỉ định truy cập.
+Các biến instance có các giá trị mặc định. Với các số, giá trị mặc định là 0, với Boolean là false và với đối tượng là null. Các giá trị có thể được gán trong khi khai báo hoặc trong constructor.
+Các biến instance có thể được truy cập một cách trực tiếp bởi việc gọi tên biến bên trong lớp đó. Tuy nhiên, với các phương thức static và các lớp khác nhau (khi biến instance được cung cấp khả năng truy cập), nó nên được gọi bởi sử dụng tên đầy đủ hợp lệ như sau: ObjectReference.VariableName.
+Ví dụ:
+import java.io.*;
+public class Student{
+// Bien instance nay la nhin thay cho bat ky lop con nao.
+public String ten;
+// Bien hocphi la chi nhin thay cho lop Student.
+private double hocphi;
+// Bien ten duoc gan trong constructor.
+public Student (String tenSV){
+ten = tenSV;
+}
+// Bien hocphi duoc gan mot gia tri.
+public void setHocPhi(double hp){
+hocphi = hp;
+}
+// Phuong thuc nay in chi tiet ve Student.
+public void inThongTin(){
+System.out.println(“Ho va ten: ” + ten );
+System.out.println(“Hoc phi: ” + hocphi);
+}
+public static void main(String args[]){
+Student sv1 = new Student(“Nguyen Van Doan”);
+sv1.setHocPhi(4000);
+sv1.inThongTin();
+}
+}
+3. Biến của lớp/biến tĩnh (Class/Static variables)
+Các biến class cũng được biết như là các biến static được khai báo với từ khóa static trong một lớp, nhưng ở bên ngoài một phương thức, constructor hoặc một khối.
+Sẽ chỉ có một bản sao của mỗi biến class cho mỗi lớp, bất chấp việc bao nhiêu đối tượng được tạo từ nó.
+Các biến static hiếm khi được sử dụng, ngoài việc được khai báo như là các hằng số. Các hằng số là các biến, mà được khai báo như là các biến static, biến final, biến chung/riêng. Các biến hằng số không bao giờ thay đổi từ giá trị khởi tạo của chúng.
+Các biến static được lưu giữ trong bộ nhớ static.
+Các biến static được tạo khi chương trình bắt đầu và bị hủy khi chương trình kết thúc.
+Tính nhìn thấy là tương tự như các biến instance. Tuy nhiên, hầu hết biến static được khai báo chung khi chúng phải là có sẵn cho việc sử dụng của lớp.
+Giá trị mặc định là giống với các biến instance. Với các số, giá trị mặc định là 0; với Boolean là false, và với đối tượng là null. Các giá trị có thể được gán trong khi khai báo hoặc trong constructor. Ngoài ra, các giá trị có thể được gán trong các khối khởi tạo static đặc biệt.
+Các biến static có thể được truy cập bởi việc gọi tên lớp: ClassName.VariableName.
+Khi khai báo các biến class như public static final, thì các tên biến ở dạng chữ hoa. Nếu các biến static không là public và final, thì cú pháp đặt tên giống với các biến local và biến instance.
+Ví dụ:
+import java.io.*;
+public class Student{
+// Bien hocphi la mot bien private static
+private static double hocphi;
+// FACULTY la mot constant
+public static final String FACULTY = “KhoaIT “;
+public static void main(String args[]){
+hocphi = 4000;
+System.out.println(FACULTY+”hocphi trung binh:”+hocphi);
+}
+}
+Kết quả:
+KhoaIT hocphi trung binh:4000
+Ghi chú: Nếu các biến được truy cập từ lớp bên ngoài, hằng số nên được truy cập như ở dạng: Student.FACULTY
+Xem thông tin tuyển dụng Java tại: Tuyển dụng lập trình viên Java
+">
+        <meta property="og:type" content="article">
+        <meta property="og:image" content="http://smartjob.vn/wp-content/uploads/2016/01/lap-trinh-co-ban-8.jpg">
+    <style type="text/css"> 
+
+</style>	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="http://smartjob.vn/wp-content/themes/SMARTJOB/css/custom-ie.css" charset="utf-8" />
+	<![endif]-->
+
+	<!--[if lte IE 8]>
+		<link rel="stylesheet" type="text/css" href="http://smartjob.vn/wp-content/themes/SMARTJOB/css/custom-ie8.css" charset="utf-8" />
+		<script src="http://smartjob.vn/wp-content/themes/SMARTJOB/js/cufon-yui.js" type="text/javascript"></script>
+		<script src="http://smartjob.vn/wp-content/themes/SMARTJOB/js/Pictos_RIP_400.font.js" type="text/javascript"></script>
+	<![endif]-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70168823-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- Place this tag in your head or just before your close body tag. -->
+<!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+_atrk_opts = { atrk_acct:"sJaEm1akKd605T", domain:"smartjob.vn",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript>&lt;img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=sJaEm1akKd605T" style="display:none" height="1" width="1" alt="" /&gt;</noscript>
+<!-- End Alexa Certify Javascript -->  
+<script src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/platform.js" async="" defer="" gapi_processed="true">
+  {lang: 'vi'}
+</script>
+
+<!-- Start google map Javascript -->
+
+<!-- end google map Javascript -->
+<script type="text/javascript" charset="UTF-8" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/vdHTWryFvzPrXM3z30q1W3gXYmmCZigvRf0hlJvDNBk.js"></script><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f6f7f9;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:18px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;bottom:0;left:0;right:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29487d;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f9;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style><style type="text/css">
+
+.recaptcha_is_showing_audio .recaptcha_only_if_image,.recaptcha_isnot_showing_audio .recaptcha_only_if_audio,.recaptcha_had_incorrect_sol .recaptcha_only_if_no_incorrect_sol,.recaptcha_nothad_incorrect_sol .recaptcha_only_if_incorrect_sol{display:none !important}</style><script type="text/javascript" async="" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/saved_resource"></script><script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/reload"></script></head>
+
+
+<body class="single single-post postid-1711 single-format-standard two-column right-sidebar margin-top-70">
+	<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+			 chromium.org/developers/how-tos/chrome-frame-getting-started -->
+	<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+	<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_http" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/iPrOY23SGAp.html" style="border: none;"></iframe><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/iPrOY23SGAp(1).html" style="border: none;"></iframe></div></div></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.5&appId=726811420745180";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	<header>
+		<div class="main-header bg-main-header top-0" id="header_top">
+	<div class="main-center">
+
+		<!-- left content on header -->
+		<div class="f-left f-left-all">
+
+						<!-- fix logo middle -->
+			<table class="fix-logo"><tbody><tr><td>
+				<a href="http://smartjob.vn/" class="logo"><img src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/logo_smartjob1.png" alt="Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT"></a>	
+			</td></tr></tbody></table>
+
+			<div class="slogan"></div>
+		</div>
+
+		<!-- right content on header -->
+		<div class="header-technical f-right f-left-all">
+			<div class="category">
+				<div class="menu-home-container"><ul class="menu-header-top"><li id="home-menu"><a href="http://smartjob.vn/job/" title="Jobs">JOBS</a><ul class="sub-menu"></ul> </li><li id="company-menu"><a href="http://smartjob.vn/companies/" title="Companies">COMPANIES</a><ul class="sub-menu"></ul> </li><li id="menu-item-581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-581"><a href="http://smartjob.vn/all-blog/">BLOG</a></li>
+</ul></div>
+			</div>
+
+			<div class="ver-line"></div>
+								<div class="post-job">
+						<a href="http://smartjob.vn/post-a-job/" class="bg-btn-action btn-header border-radius" title="Post a Job">
+							POST A JOB<span class="icon f-right" data-icon="W"></span>
+						</a>
+
+					</div>
+					<div class="ver-line"></div>
+			
+
+
+			<div class="account">
+				<ul class="menu-header-top">
+											<li>
+							<a id="requestLogin" class="login-modal bg-btn-header btn-header" rel="modal-box" href="http://smartjob.vn/lap-trinh-co-ban-ve-java-cac-loai-bien-trong-java-p4/#login" title="Login">
+								<span class="icon" data-icon="U" rel=""></span>
+							</a>
+						</li>
+									</ul>
+			</div>
+
+		</div>
+
+	</div>
+</div><!--<div class="header-second">
+	<div class="main-center breadcrumb">
+		<?php/*
+		if(!is_page () )
+			echo et_breadcrumbs(array ('showCurrent' => false, 'home'			=>	__('Home', ET_DOMAIN)));
+		else echo et_breadcrumbs(array ('showCurrent' => true, 'home'			=>	__('Home', ET_DOMAIN))); */?>
+	</div>
+</div>-->
+
+		<div class="clear"></div>
+	</header>    <!--
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script> -->
+
+    <div class="wrapper clearfix" id="WP_Role Object
+(
+    [name] =&gt; contributor
+    [capabilities] =&gt; Array
+        (
+            [edit_posts] =&gt; 1
+            [read] =&gt; 1
+            [level_1] =&gt; 1
+            [level_0] =&gt; 1
+            [delete_posts] =&gt; 1
+        )
+
+)
+">
+        <div class="main-center">
+            <div class="main-column">
+                <div class="entry-blog ">
+                    <div style="padding-left:12px">
+                        <div class="header font-quicksand">
+                                                            <a href="http://smartjob.vn/cam-nang-lap-trinh/">
+                                    Cẩm nang lập trình                                </a>
+                                                        <a href="http://smartjob.vn/lap-trinh-co-ban-ve-java-cac-loai-bien-trong-java-p4/" class="comment">
+
+                                                            </a>
+                        </div>
+                        <h1 class="title" style=" font-size: 30px;font-weight: normal;line-height: 38px;">
+                            <a href="http://smartjob.vn/lap-trinh-co-ban-ve-java-cac-loai-bien-trong-java-p4/" title="Lập trình cơ bản về Java: Các loại biến trong Java (P4)">Lập trình cơ bản về Java: Các loại biến trong Java (P4)</a><span style="font-size:16px"> (457 views)</span>
+                        </h1>
+
+                        <div class="description tinymce-style" style="font-size: 15px;font-weight:400;color:#221f20;text-rendering:auto !important;line-height:1.6;text-align:justify">
+                            <p>Để học những bước đầu về <span style="text-decoration: underline; color: #ff6600;"><em><strong><a style="color: #ff6600; text-decoration: underline;" href="http://smartjob.vn/lap-trinh-co-ban-ve-java-java-la-gi/">lập trình cơ bản</a></strong></em></span>, ta cần hiểu rõ được thế nào là biến trong Java.</p>
+<p>Trong bài viết trước Smartjob.vn đã giới thiệu với bạn đọc về Lớp trong Java. Hôm nay, chúng tôi xin giới thiệu đến các bạn các loại Biến trong lập trình cơ bản về Java.</p>
+<p>Biến là vùng nhớ dùng để lưu trữ các giá trị của chương trình. Mỗi biến gắn liền với một kiểu dữ liệu và một định danh duy nhất gọi là tên biến. Trong <strong>lập trình cơ bản </strong>về Java, tất cả các biến phải được khai báo trước khi sử dụng. Cấu trúc cơ bản của việc khai báo các biến như sau:</p>
+<p>type identifier [ = value][, identifier [= value] …] ;</p>
+<p>Trong đó:</p>
+<p>Type (tag vào bài) là một trong những kiểu dữ liệu của Java.</p>
+<p>Identifer (tag vào bài) là tên của biến.</p>
+<p>Để khai báo nhiều hơn một biến của cùng một kiểu dữ liệu, sử dụng dấu phẩy (,) để phân tách chúng.</p>
+<p>Trong <strong>lập trình cơ bản</strong> về Java, chúng ta có 3 loại biến:</p>
+<ul>
+<li>Biến địa phương (Local variables)</li>
+<li>Biến thể hiện (Instance variables)</li>
+<li>Biến của lớp/biến tĩnh (Class/Static variables)</li>
+</ul>
+<ol>
+<li><em>Biến địa phương (Local variables)</em></li>
+</ol>
+<p>Trong <strong>lập trình cơ bản</strong> về Java, biến địa phương được khai báo bên trong các method (phương thức), constructor(phương thức khởi tạo), hoặc block (khối lệnh).</p>
+<p>Các biến được tạo ra khi phương thức, constructor hoặc block được gọi và biến này sẽ bị hủy ngay khi thực hiện xong phương thức, constructor hoặc khối kết thúc.</p>
+<p>Các giới hạn truy xuất (access modifier) không được dùng cho các biến loại này</p>
+<p>Các biến local chỉ nhìn thấy trong phương thức, constructor, hoặc khối được khai báo.</p>
+<p>Các biến local được thực thi nội bộ.</p>
+<p>Không có giá trị mặc định nào cho các biến local, vì thế các biến local nên được khai báo và một giá trị khởi tạo nên được gán trước khi sử dụng.</p>
+<p>Ví dụ:</p>
+<p>Ở đây, tuoi là biến local. Nó được định nghĩa bên trong phương thức tuoiCon() và phạm vi của nó được giới hạn chỉ trong phương thức này.</p>
+<blockquote><p>public class Test{<br>
+public void tuoiCon(){<br>
+int tuoi = 0;<br>
+tuoi = tuoi + 10;<br>
+System.out.println(“Tuoi con la : ” + tuoi);<br>
+}</p>
+<p>public static void main(String args[]){<br>
+Test test = new Test();<br>
+test.tuoiCon();<br>
+}<br>
+}</p></blockquote>
+<p><em>2. Biến thể hiện (Instance variables)</em></p>
+<p>Các biến instance được khai báo trong một lớp, nhưng ở bên ngoài một phương thức, constructor hoặc bất kỳ khối nào.</p>
+<p>Khi một không gian nhớ được cấp phát cho một đối tượng trong một heap (một dạng cấu trúc hàng đợi có thứ tự ưu tiên), một slot cho mỗi giá trị biến instance được tạo ra.</p>
+<p>Các biến instance được tạo khi một đối tượng được tạo bởi sử dụng từ khóa new và bị hủy khi đối tượng bị hủy.</p>
+<p>Các biến instance giữ các giá trị mà phải được tham chiếu bởi nhiều hơn một phương thức, constructor hoặc khối, hoặc các phần chủ yếu của trạng thái đối tượng mà phải có mặt xuyên suốt lớp đó.</p>
+<p>Các biến instance có thể được khai báo trong mức độ lớp trước hoặc sau khi sử dụng.</p>
+<p>Chỉ định truy cập (access modifier) có thể được cung cấp cho các biến instance.</p>
+<p>Các biến instance là nhìn thấy với tất cả các phương thức, constructor, và khối trong lớp. Tuy nhiên, tính nhìn thấy cho các lớp phụ có thể được cung cấp cho những biến này với sự sử dụng của chỉ định truy cập.</p>
+<p>Các biến instance có các giá trị mặc định. Với các số, giá trị mặc định là 0, với Boolean là false và với đối tượng là null. Các giá trị có thể được gán trong khi khai báo hoặc trong constructor.</p>
+<p>Các biến instance có thể được truy cập một cách trực tiếp bởi việc gọi tên biến bên trong lớp đó. Tuy nhiên, với các phương thức static và các lớp khác nhau (khi biến instance được cung cấp khả năng truy cập), nó nên được gọi bởi sử dụng tên đầy đủ hợp lệ như sau: ObjectReference.VariableName.</p>
+<p>Ví dụ:</p>
+<blockquote><p>import java.io.*;</p>
+<p>public class Student{<br>
+// Bien instance nay la nhin thay cho bat ky lop con nao.<br>
+public String ten;</p>
+<p>// Bien hocphi la chi nhin thay cho lop Student.<br>
+private double hocphi;</p>
+<p>// Bien ten duoc gan trong constructor.<br>
+public Student (String tenSV){<br>
+ten = tenSV;<br>
+}</p>
+<p>// Bien hocphi duoc gan mot gia tri.<br>
+public void setHocPhi(double hp){<br>
+hocphi = hp;<br>
+}</p>
+<p>// Phuong thuc nay in chi tiet ve Student.<br>
+public void inThongTin(){<br>
+System.out.println(“Ho va ten: ” + ten );<br>
+System.out.println(“Hoc phi: ” + hocphi);<br>
+}</p>
+<p>public static void main(String args[]){<br>
+Student sv1 = new Student(“Nguyen Van Doan”);<br>
+sv1.setHocPhi(4000);<br>
+sv1.inThongTin();<br>
+}<br>
+}</p></blockquote>
+<p><em>3. Biến của lớp/biến tĩnh (Class/Static variables)</em></p>
+<p>Các biến class cũng được biết như là các biến static được khai báo với từ khóa static trong một lớp, nhưng ở bên ngoài một phương thức, constructor hoặc một khối.</p>
+<p>Sẽ chỉ có một bản sao của mỗi biến class cho mỗi lớp, bất chấp việc bao nhiêu đối tượng được tạo từ nó.</p>
+<p>Các biến static hiếm khi được sử dụng, ngoài việc được khai báo như là các hằng số. Các hằng số là các biến, mà được khai báo như là các biến static, biến final, biến chung/riêng. Các biến hằng số không bao giờ thay đổi từ giá trị khởi tạo của chúng.</p>
+<p>Các biến static được lưu giữ trong bộ nhớ static.</p>
+<p>Các biến static được tạo khi chương trình bắt đầu và bị hủy khi chương trình kết thúc.</p>
+<p>Tính nhìn thấy là tương tự như các biến instance. Tuy nhiên, hầu hết biến static được khai báo chung khi chúng phải là có sẵn cho việc sử dụng của lớp.</p>
+<p>Giá trị mặc định là giống với các biến instance. Với các số, giá trị mặc định là 0; với Boolean là false, và với đối tượng là null. Các giá trị có thể được gán trong khi khai báo hoặc trong constructor. Ngoài ra, các giá trị có thể được gán trong các khối khởi tạo static đặc biệt.</p>
+<p>Các biến static có thể được truy cập bởi việc gọi tên lớp: ClassName.VariableName.</p>
+<p>Khi khai báo các biến class như public static final, thì các tên biến ở dạng chữ hoa. Nếu các biến static không là public và final, thì cú pháp đặt tên giống với các biến local và biến instance.</p>
+<p>Ví dụ:</p>
+<blockquote><p>import java.io.*;</p>
+<p>public class Student{<br>
+// Bien hocphi la mot bien private static<br>
+private static double hocphi;</p>
+<p>// FACULTY la mot constant<br>
+public static final String FACULTY = “KhoaIT “;</p>
+<p>public static void main(String args[]){<br>
+hocphi = 4000;<br>
+System.out.println(FACULTY+”hocphi trung binh:”+hocphi);<br>
+}<br>
+}</p></blockquote>
+<p>Kết quả:</p>
+<blockquote><p>KhoaIT hocphi trung binh:4000</p></blockquote>
+<p>Ghi chú: Nếu các biến được truy cập từ lớp bên ngoài, hằng số nên được truy cập như ở dạng: Student.FACULTY</p>
+<p>Xem thông tin tuyển dụng Java tại: <span style="color: #ff6600;"><a style="color: #ff6600;" href="http://smartjob.vn/?s=java">Tuyển dụng lập trình viên Java</a></span></p>
+                            <div style="padding: 13px;"><label>Tags:</label>
+                                                                        <a href="http://smartjob.vn/tag/hoc-lap-trinh/" style="padding: 11px;">học lập trình</a>,
+                                                                            <a href="http://smartjob.vn/tag/java/" style="padding: 11px;">java</a>,
+                                                                            <a href="http://smartjob.vn/tag/lap-trinh/" style="padding: 11px;">lập trình</a>,
+                                                                            <a href="http://smartjob.vn/tag/lap-trinh-java/" style="padding: 11px;">lập trình java</a>,
+                                                                            <a href="http://smartjob.vn/tag/lap-trinh-java-co-ban/" style="padding: 11px;">lập trình java cơ bản</a>,
+                                                                            <a href="http://smartjob.vn/tag/lap-trinh-web/" style="padding: 11px;">lập trình web</a>,
+                                                                            <a href="http://smartjob.vn/tag/lap-trinh-web-co-ban/" style="padding: 11px;">lập trình web cơ bản</a>,
+                                                                            <a href="http://smartjob.vn/tag/lap-trinh-web-voi-java/" style="padding: 11px;">lập trình web với java</a>,
+                                                                </div>
+                            <div style="margin-bottom:4px">
+                                <div class="social_destop "><!--https://www.facebook.com/smartjob.vn?fref=ts-->
+                                    <div class="fb-like fb_iframe_widget" data-href="http://smartjob.vn/lap-trinh-co-ban-ve-java-cac-loai-bien-trong-java-p4/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=726811420745180&amp;container_width=0&amp;href=http%3A%2F%2Fsmartjob.vn%2Flap-trinh-co-ban-ve-java-cac-loai-bien-trong-java-p4%2F&amp;layout=box_count&amp;locale=vi_VN&amp;sdk=joey&amp;share=false&amp;show_faces=true"><span style="vertical-align: bottom; width: 57px; height: 61px;"><iframe name="f2baaae390c4408" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/like.html" style="border: none; visibility: visible; width: 57px; height: 61px;" class=""></iframe></span></div>
+                                </div>
+                                <div class="social_destop two_social">
+                                    <div class="fb-share-button fb_iframe_widget" data-href="http://smartjob.vn/lap-trinh-co-ban-ve-java-cac-loai-bien-trong-java-p4/" data-layout="box_count" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=726811420745180&amp;container_width=0&amp;href=http%3A%2F%2Fsmartjob.vn%2Flap-trinh-co-ban-ve-java-cac-loai-bien-trong-java-p4%2F&amp;layout=box_count&amp;locale=vi_VN&amp;sdk=joey"><span style="vertical-align: bottom; width: 66px; height: 61px;"><iframe name="f2f5f3803432598" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:share_button Facebook Social Plugin" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/share_button.html" style="border: none; visibility: visible; width: 66px; height: 61px;" class=""></iframe></span></div>
+                                </div>
+                                <!-- Place this tag where you want the +1 button to render. -->
+                                <div class="social_destop three_social">
+                                    <div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 400px; height: 24px; background: transparent;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 400px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 24px;" tabindex="0" vspace="0" width="100%" id="I0_1481722180875" name="I0_1481722180875" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/fastbutton.html" data-gapiattached="true" title="+1"></iframe></div>
+                                </div>
+                            </div>
+                            <div style="margin-bottom:12px">
+                                <div class="fb-comments fb_iframe_widget fb_iframe_widget_fluid" data-href="http://smartjob.vn/lap-trinh-co-ban-ve-java-cac-loai-bien-trong-java-p4/" data-width="100%" data-numposts="4" fb-xfbml-state="rendered"><span style="height: 173px;"><iframe id="f24b7ba10f6f838" name="f2b239e9dd99538" scrolling="no" title="Facebook Social Plugin" class="fb_ltr fb_iframe_widget_lift" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/comments.html" style="border: none; overflow: hidden; height: 173px; width: 100%;"></iframe></span></div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div style="margin-top: 27px;">
+                        <div class="header font-quicksand" style="border-top: 1px solid #8C9AA3;font-size:22px;padding-top:35px;padding-bottom:35px;font-weight:400">
+                            May be interested posts:
+                        </div>
+						
+                                                            <div style="padding: 4px;float:left;width:45%">
+                                        <a href="http://smartjob.vn/express-bai-2-huong-dan-giao-dien-voi-jade-va-html/" style="padding-right: 12px;float:left">
+                                            <img style="width:52px;height:auto" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/blog_jp-150x150.jpg">
+                                        </a>
+                                        <a style="color:#2b3942;font-weight:normal;font-size:16px" href="http://smartjob.vn/express-bai-2-huong-dan-giao-dien-voi-jade-va-html/">[Express] Bài 2: Hướng dẫn  giao diện với jade và html</a>
+                                    </div>
+                                                                    <div style="padding: 4px;float:left;width:45%">
+                                        <a href="http://smartjob.vn/dependency-injection-trong-java/" style="padding-right: 12px;float:left">
+                                            <img style="width:52px;height:auto" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/bai-hoc-thanh-cong-150x150.jpg">
+                                        </a>
+                                        <a style="color:#2b3942;font-weight:normal;font-size:16px" href="http://smartjob.vn/dependency-injection-trong-java/">Tìm hiểu về Dependency injection trong Java</a>
+                                    </div>
+                                                                    <div style="padding: 4px;float:left;width:45%">
+                                        <a href="http://smartjob.vn/huong-dan-memcache-php-smartjob/" style="padding-right: 12px;float:left">
+                                            <img style="width:52px;height:auto" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/memcached-150x150.jpg">
+                                        </a>
+                                        <a style="color:#2b3942;font-weight:normal;font-size:16px" href="http://smartjob.vn/huong-dan-memcache-php-smartjob/">Hướng dẫn Memcache Php – Smartjob</a>
+                                    </div>
+                                                                    <div style="padding: 4px;float:left;width:45%">
+                                        <a href="http://smartjob.vn/50-keywords-ma-moi-lap-trinh-vien-java-nen-biet/" style="padding-right: 12px;float:left">
+                                            <img style="width:52px;height:auto" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/ngon-ngu-lap-trinh-java2-150x150.jpg">
+                                        </a>
+                                        <a style="color:#2b3942;font-weight:normal;font-size:16px" href="http://smartjob.vn/50-keywords-ma-moi-lap-trinh-vien-java-nen-biet/">50 keywords mà mọi lập trình viên java nên biết</a>
+                                    </div>
+                                                                    <div style="padding: 4px;float:left;width:45%">
+                                        <a href="http://smartjob.vn/cai-dat-spring-boot-cli/" style="padding-right: 12px;float:left">
+                                            <img style="width:52px;height:auto" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/Maven-tool-2016-150x150.jpg">
+                                        </a>
+                                        <a style="color:#2b3942;font-weight:normal;font-size:16px" href="http://smartjob.vn/cai-dat-spring-boot-cli/">Cài đặt Spring Boot CLI</a>
+                                    </div>
+                                                                    <div style="padding: 4px;float:left;width:45%">
+                                        <a href="http://smartjob.vn/practice-oracle-database-12c-cloud-database-service/" style="padding-right: 12px;float:left">
+                                            <img style="width:52px;height:auto" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/kinh-doanh-it-von-150x150.jpg">
+                                        </a>
+                                        <a style="color:#2b3942;font-weight:normal;font-size:16px" href="http://smartjob.vn/practice-oracle-database-12c-cloud-database-service/">Practice Oracle database 12c on cloud (Database as a Service)</a>
+                                    </div>
+                                						
+                    </div>
+
+                </div>
+            </div>
+            <div class="second-column widget-area " id="sidebar-blog">
+                <aside class="widget widget_miw_multi_image_widget" id="miw_multi_image_widget-4">
+                    <div class="widget-title" style="margin-top: 12px; font-weight: 500;font-size: 21px;;background-color:#2a4560;padding-top:7px;padding-bottom:7px;color:white">
+                        Chuyên mục Blog
+                    </div>
+                    <div class="miw-container">
+                        <ul class="miw miw-linear">
+                                                                <li style="text-align:left" class="miw-loop">
+                                        <a href="http://smartjob.vn/y-tuong-kinh-doanh/" style="font-weight: 400; font-size: 17px;">  Ý tưởng kinh doanh</a>
+                                        <ul style="margin-left:16px;"></ul>                                    </li>
+                                                                    <li style="text-align:left" class="miw-loop">
+                                        <a href="http://smartjob.vn/bai-hoc-thanh-cong/" style="font-weight: 400; font-size: 17px;">  Bài học thành công</a>
+                                        <ul style="margin-left:16px;"></ul>                                    </li>
+                                                                    <li style="text-align:left" class="miw-loop">
+                                        <a href="http://smartjob.vn/cam-nang-lap-trinh/" style="font-weight: 400; font-size: 17px;">  Cẩm nang lập trình</a>
+                                        <ul style="margin-left:16px;"><li><a href="http://smartjob.vn/cam-nang-lap-trinh-java/" style="font-weight:300;border-bottom:1px dotted #ededed ">- Cẩm nang lập trình Java</a></li><li><a href="http://smartjob.vn/cam-nang-lap-trinh-php/" style="font-weight:300;border-bottom:1px dotted #ededed ">- Cẩm nang lập trình PHP</a></li><li><a href="http://smartjob.vn/cam-nang-lap-trinh-android/" style="font-weight:300;border-bottom:1px dotted #ededed ">- Cẩm nang lập trình Android</a></li><li><a href="http://smartjob.vn/cam-nang-lap-trinh-ios/" style="font-weight:300;border-bottom:1px dotted #ededed ">- Cẩm nang lập trình iOS</a></li><li><a href="http://smartjob.vn/cam-nang-tester/" style="font-weight:300;border-bottom:1px dotted #ededed ">- Cẩm nang tester</a></li><li><a href="http://smartjob.vn/big-data/" style="font-weight:300;border-bottom:1px dotted #ededed ">- Big Data</a></li><li><a href="http://smartjob.vn/node-js/" style="font-weight:300;border-bottom:1px dotted #ededed ">- Node JS</a></li></ul>                                    </li>
+                                                                    <li style="text-align:left" class="miw-loop">
+                                        <a href="http://smartjob.vn/cam-nang-tuyen-dung/" style="font-weight: 400; font-size: 17px;">  Cẩm nang tuyển dụng</a>
+                                        <ul style="margin-left:16px;"></ul>                                    </li>
+                                                                    <li style="text-align:left" class="miw-loop">
+                                        <a href="http://smartjob.vn/khoi-nghiep/" style="font-weight: 400; font-size: 17px;">  Khởi nghiệp</a>
+                                        <ul style="margin-left:16px;"></ul>                                    </li>
+                                                                    <li style="text-align:left" class="miw-loop">
+                                        <a href="http://smartjob.vn/lap-trinh-vien-nghe-lap-trinh/" style="font-weight: 400; font-size: 17px;">  Lập trình viên</a>
+                                        <ul style="margin-left:16px;"></ul>                                    </li>
+                                                                    <li style="text-align:left" class="miw-loop">
+                                        <a href="http://smartjob.vn/thong-tin-cong-nghe/" style="font-weight: 400; font-size: 17px;">  Thông tin công nghệ</a>
+                                        <ul style="margin-left:16px;"></ul>                                    </li>
+                                                                    <li style="text-align:left" class="miw-loop">
+                                        <a href="http://smartjob.vn/thang-tien-su-nghiep/" style="font-weight: 400; font-size: 17px;">  Thăng tiến sự nghiệp</a>
+                                        <ul style="margin-left:16px;"></ul>                                    </li>
+                                                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+    <!-- them question cho mr vydn -->
+    <script type="text/javascript">
+        $("#faqs dd").hide();
+        $("#faqs dt").click(function () {
+            $(this).next("#faqs dd").slideToggle(500);
+            $(this).toggleClass("expanded");
+        });
+    </script>
+    <style type="text/css">
+        #faqs dt, #faqs dd {
+            padding: 0 0 0 50px
+        }
+
+        #faqs dt {
+            font-size: 1.5em;
+            color: #9d9d9d;
+            cursor: pointer;
+            height: 37px;
+            line-height: 37px;
+            margin: 0 0 15px 25px
+        }
+
+        #faqs dd {
+            font-size: 1em;
+            margin: 0 0 20px 25px
+        }
+
+        #faqs dt {
+            background: url(http://www.designonslaught.com/files/2012/06/expand-icon.png) no-repeat left;
+            color: #0000ff
+        }
+
+        #faqs .expanded {
+            background: url(http://www.designonslaught.com/files/2012/06/expanded-icon.png) no-repeat left
+        }
+    </style>
+    <!-- ket thuc question cho mr vydn -->
+<div class="modal-job modal-login" id="modal_login">
+		<div class="edit-job-inner">
+		<div class="title font-quicksand">
+			<span class="login active" rel="login">LOGIN </span> 
+			<span class="register unactive" rel="modal_register">REGISTER </span>
+		</div>
+		<form class="modal-form" id="login" novalidate="novalidate" autocomplete="on">
+			<div class="content">
+
+				<div class="form-item">
+				  <div class="label">
+					<h6>Username or email address</h6>
+				  </div>
+				  <div class="fld-wrap" id="fld_login_email">
+					<input name="log_email" class="bg-default-input is_email is_user_name not_empty" id="log_email" type="text">
+									  </div>
+				</div>
+				<div class="form-item">
+				  <div class="label">
+					<h6>Password</h6>
+				  </div>
+				  <div class="fld-wrap" id="fld_login_password">
+					<input name="log_pass" class="bg-default-input is_pass not_empty" id="log_pass" type="password">
+				  </div>
+				</div>
+
+			</div>
+			<div class="footer font-quicksand">
+				<div class="button">
+					<input type="submit" class="bg-btn-action border-radius" value="LOGIN" id="submit_login">
+					<span class="arr">»</span>
+				</div>
+				<a href="http://smartjob.vn/lap-trinh-co-ban-ve-java-cac-loai-bien-trong-java-p4/#" class="forgot-pass-link">FORGOT PASSWORD</a>
+			</div>
+
+			<!-- Social login !-->
+			
+			<div class="social-login font-quicksand">
+				<div class="label-social-login font-quicksand">SIGN IN WITH</div>
+				<div class="right-social right">
+
+					<ul>
+						
+	                    	                    <li><a class="facebook-auth-btn btn-social btn-fb" id="facebook_auth_btn" href="http://smartjob.vn/lap-trinh-co-ban-ve-java-cac-loai-bien-trong-java-p4/#">FB</a></li>
+	                    
+	            	</ul>
+	            </div>
+			</div>
+						<!-- End Social login !-->
+		</form>
+
+		<form class="modal-form" id="modal_register" novalidate="novalidate">
+			<div class="content">
+
+				<div class="form-item">
+				  	<div class="label">
+						<h6>Username</h6>
+				  	</div>
+				 	<div class="fld-wrap" id="">
+						<input name="user_name" class="bg-default-input is_user_name not_empty required" id="register_user_name" type="text">
+
+				  	</div>
+				</div>
+				<div class="form-item">
+				  	<div class="label">
+						<h6>Email</h6>
+				  	</div>
+				 	<div class="fld-wrap" id="">
+						<input name="user_email" class="bg-default-input is_email is_user_name not_empty required" id="register_email" type="text">
+
+				  	</div>
+				</div>
+								<div class="form-item">
+				  	<div class="label">
+						<h6>I want to register as a</h6>
+				  	</div>
+				 	<div class="fld-wrap" id="">
+						<input checked="true" name="role" class="bg-default-input required" id="role-company" type="radio" value="company">
+						<label for="role-company">Company </label>
+						<input name="role" class="bg-default-input required" id="role-seeker" type="radio" value="jobseeker">
+						<label for="role-seeker">Jobseeker </label>
+				  	</div>
+				</div>
+
+								
+				<div class="form-item">
+				  	<div class="label">
+						<h6>Password</h6>
+				  	</div>
+				  	<div class="fld-wrap" id="">
+						<input name="user_pass" class="bg-default-input is_pass not_empty required" id="register_pass" type="password">
+				  	</div>
+				</div>
+
+				<div class="form-item">
+				  	<div class="label">
+						<h6>Retype Password</h6>
+				  	</div>
+				  	<div class="fld-wrap" id="">
+						<input name="re_register_pass" class="bg-default-input is_pass not_empty required" id="re_register_pass" type="password">
+				  	</div>
+				</div>
+
+				<div class="reCaptchaMain form-item-captcha" id="reCaptcha">        <script type="text/javascript">
+             var RecaptchaOptions = {
+                theme : 'custom',
+                custom_theme_widget: 'recaptcha_widget'
+             };
+        </script>
+        <div id="recaptcha_widget" class="recaptcha-wrap recaptcha_nothad_incorrect_sol recaptcha_isnot_showing_audio">
+
+            <div class="control-group">
+                <div class="controls">
+                    <a id="recaptcha_image" href="http://smartjob.vn/lap-trinh-co-ban-ve-java-cac-loai-bien-trong-java-p4/#" class="thumbnail" style="width: 300px; height: 57px;"><img id="recaptcha_challenge_image" alt="Hình xác thực reCAPTCHA" height="57" width="300" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/image"></a>
+                    
+                    <div class="recaptcha_only_if_incorrect_sol" style="color:red; display:none;">Incorrect please try again</div>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="recaptcha_only_if_image control-label">Enter the words above:</label>
+                <div class="controls">
+                    <div class="input-append">
+                        <span id="recaptcha_challenge_field_holder" style="display: none;"><input type="hidden" name="recaptcha_challenge_field" id="recaptcha_challenge_field" value="03AHJ_VusWcQynhrKlrrA_01jDv4JVnZ_2We0M3uA_Y6-8TcLhWm5Vx2DBTSINFqe8Ew-miUtQkYvDJiJ-7v35JvC-5UA2Kn2a49QqCW1zs0BQJlErpFrrU1kKHVbcji8bflYr82lyF7CgXdQcrkoNINn7zqiBciLd3ZtHMwdgdtKzb-r9Oa93kuokPMEcvnoZqy1ox2NObvTF"></span><input type="text" tabindex="3" id="recaptcha_response_field" name="recaptcha_response_field" class="required input-recaptcha" autocomplete="off">
+                        <span style="display:none" class="msg-custom"></span>
+                        <span class="google-action">
+                        <a class="button " href="javascript:Recaptcha.reload()"><i data-icon="0" class="icon "></i></a>
+                        <a class="button" href="javascript:Recaptcha.showhelp()"><i data-icon="?" class="icon"></i></a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/challenge">
+        </script><script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/recaptcha.js"></script>
+
+        <noscript>
+            &lt;iframe src="http://www.google.com/recaptcha/api/challenge?k=6LdYahQTAAAAALt9EbJ42P3c1001HY7MUwRgzyzK"
+               height="300" width="500" frameborder="0"&gt;&lt;/iframe&gt;&lt;br&gt;
+            &lt;textarea name="recaptcha_challenge_field" rows="3" cols="40"&gt;
+            &lt;/textarea&gt;
+            &lt;input type="hidden" name="recaptcha_response_field"
+               value="manual_challenge"&gt;
+        </noscript>
+
+        <div style="width: 100%"></div></div>
+				<div class="form-item" id="term-of-use">
+				  	<div class="fld-wrap" id="">
+						<input name="register_term" class="bg-default-input is_pass not_empty" id="term_of" type="checkbox">
+						<label for="term_of">I agree with <a href="http://smartjob.vn/terms-of-use/" target="_blank"> the Terms of use </a> </label>
+				  	</div>
+				</div>
+
+			</div>
+			<div class="footer font-quicksand">
+				<div class="button">
+					<input type="submit" class="bg-btn-action border-radius" value="REGISTER" id="submit_modal_register">
+					<span class="arr">»</span>
+				</div>
+			</div>
+		</form>
+	</div>
+	<div class="modal-close"></div>
+</div>    <div class="modal-job modal-register" id="modal-register">
+        <div class="edit-job-inner">
+            <div class="title font-quicksand">Register a company account</div>
+            <form class="modal-form" id="register">
+                <div class="content form-content">
+                    <div class="form-item">
+                        <div class="label">
+                            <h6>Username</h6>
+                        </div>
+                        <div class="">
+                            <input class="bg-default-input" type="text" name="reg_name" id="reg_name">
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <div class="label">
+                            <h6>Email</h6>
+                        </div>
+                        <div class="">
+                            <input class="bg-default-input" type="text" name="reg_email" id="reg_email">
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <div class="label">
+                            <h6>Password</h6>
+                        </div>
+                        <div class="">
+                            <input class="bg-default-input" type="password" name="reg_pass" id="reg_pass">
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <div class="label">
+                            <h6>Retype Password</h6>
+                        </div>
+                        <div class="">
+                            <input class="bg-default-input" type="password" name="reg_pass_again" id="reg_pass_again">
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="button">
+                        <input type="submit" class="bg-btn-action border-radius" value="REGISTER" name="">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="modal-close"></div>
+    </div>
+    <div class="modal-job" id="modal-forgot-pass">
+        <div class="edit-job-inner">
+            <div class="title font-quicksand">Forgot your password?</div>
+            <form class="modal-form" id="forgot_pass" action="http://smartjob.vn/wp-login.php?action=lostpassword">
+                <div class="form-content content">
+                    <div class="form-item">
+                        <div class="label">
+                            <h6>Enter your email address</h6>
+                        </div>
+                        <div class="">
+                            <input class="bg-default-input" name="forgot_email" id="forgot_email">
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="button">
+                        <input type="submit" class="bg-btn-action border-radius" value="Get Password" name="">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="modal-close"></div>
+    </div>
+
+	<footer class="bg-footer" style="overflow:hidden;height:auto;background:black">
+		<div class="main-center">
+			<div class="foot_smartjob">
+			<h2 style="font-weight:normal">Quick Search by Skills</h2>
+				<div class="foot_comon firt_smart">
+					<ul>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-agile/" title="tuyen dung viec lam Agile" target="_blank">Agile</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-android/" title="tuyen dung viec lam Android" target="_blank">Android</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-angularjs/" title="tuyen dung viec làm AngularJS" target="_blank">AngularJS</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-asp-net/" title="tuyen dung viec lam ASP.NET" target="_blank">ASP.NET</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-bridge-engineer/" title="tuyen dung viec lam Bridge Engineer" target="_blank">Bridge Engineer</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-business-analyst/" title="tuyen dung viec lam Business Analyst" target="_blank">Business Analyst</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-c-sharp/" title="tuyen dung viec lam C#" target="_blank">C#</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-c-plus/" title="tuyen dung viec lam C++" target="_blank">C++</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-c-language/" title="tuyen dung voec lam C" target="_blank">C language</a></li>	
+					</ul>				  
+				</div>				
+				<div class="foot_comon firt_smart">
+					<ul>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-css/" title="tuyen dung viec lam CSS" target="_blank">CSS</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-database/" title="tuyen dung viec lam Database" target="_blank">Database</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-designer/" title="tuyen dung viec lam Designer" target="_blank">Designer</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-django/" title="tuyen dung viec lam Django" target="_blank">Django</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-drupal/" title="tuyen dung viec lam Drupal" target="_blank">Drupal</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-embedded/" title="tuyen dung viec lam Embedded" target="_blank">Embedded</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-english/" title="tuyen dung viec lam English" target="_blank">English</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-erp/" title="tuyen dung viec lam ERP" target="_blank">ERP</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-flash/" title="tuyen dung viec lam Flash" target="_blank">Flash</a></li>	
+					</ul>				  
+				</div>				
+				<div class="foot_comon firt_smart">
+					<ul>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-game/" title="tuyen dung viec lam Games" target="_blank">Games</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-html5/" title="tuyen dung viec lam HTML5" target="_blank">HTML5</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-ios/" title="tuyen dung viec lam IOS" target="_blank">iOS</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-it-support/" title="tuyen dung viec lam IT support" target="_blank">IT Support</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-j2ee/" title="tuyen dung viec lam J2EE" target="_blank">J2EE</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-japanese/" title="tuyen dung viec lam Japanese" target="_blank">Japanese</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-java/" title="tuyen dung lap trinh Java" target="_blank">Java</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-javascript/" title="tuyen dung viec lam JavaScript" target="_blank">JavaScript</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-jquery/" title="tuyen dung viec lam JQuery" target="_blank">JQuery</a></li>	
+					</ul>				  
+				</div>				
+				<div class="foot_comon firt_smart">
+					<ul>
+						<li> <a href="http://smartjob.vn/tuyen-dung-it-phan-cung-mang/" title="tuyen dung viec lam Hardware" target="_blank">Hardware</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-linux/" title="tuyen dung viec lam Linux" target="_blank">Linux</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-magento/" title="tuyen dung viec lam Magento" target="_blank">Magento</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-manager/" title="tuyen dung lap trinh Manager" target="_blank">Manager</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-mobile-apps/" title="tuyen dung lap trinh Mobile Apps" target="_blank">Mobile Apps</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-mvc" title="tuyen dung viec lam MVC" target="_blank">MVC</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-mysql/" title="tuyen dung viec lam MySQL" target="_blank">MySQL</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-net/" title="tuyen dung viec lam .NET" target="_blank">.NET</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-networking/" title="tuyen dung viec lam Networking" target="_blank">Networking</a></li>	
+					</ul>				  
+				</div>				
+				<div class="foot_comon firt_smart">
+					<ul>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-nodejs/" title="tuyen dung viec lam NodeJS" target="_blank">NodeJS</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-objective-c/" title="tuyen dung viec lam Objective C" target="_blank">Objective C</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-oop/" title="tuyen dung viec lam OOP" target="_blank">OOP</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-oracle/" title="tuyen dung viec lam Oracle" target="_blank">Oracle</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-php/" title="tuyen dung viec lam PHP" target="_blank">PHP</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-postgresql/" title="tuyen dung viec lam PostgreSql" target="_blank">PostgreSql</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-product-manager/" title="tuyen dung viec lam Product Manager" target="_blank">Product Manager</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-project-manager/" title="tuyen dung viec lam Project Manager" target="_blank">Project Manager</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-python/" title="tuyen dung viec lam python" target="_blank">Python</a></li>	
+					</ul>				  
+				</div>				
+				<div class="foot_comon firt_smart">
+					<ul>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-qa-qc/" title="tuyen dung viec lam QA QC" target="_blank">QA QC</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-ruby/" title="tuyen dung viec lam Ruby" target="_blank">Ruby</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-ruby-on-rails/" title="tuyen dung viec la, Ruby on Rails" target="_blank">Ruby on Rails</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-sales-engineer/" title="tuyen dung viec lam Sales Engineer" target="_blank">Sales Engineer</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-sharepoint/" title="tuyen dung viec lam Sharepoint" target="_blank">Sharepoint</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-software-architect/" title="tuyen dung viec lam Software Architect" target="_blank">Software Architect</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-sql/" title="tuyen dung viec lam SQL" target="_blank">SQL</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-system-admin/" title="tuyen dung viec lam System Admin" target="_blank">System Admin</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-system-engineer/" title="tuyen dung viec lam System Engineer" target="_blank">System Engineer</a></li>	
+					</ul>				  
+				</div>				
+				<div class="foot_comon firt_smart">
+					<ul>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-team-leader/" title="tuyen dung viec lam Team Leader" target="_blank">Team Leader</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-tester/" title="tuyen dung viec lam Tester" target="_blank">Tester</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-ui-ux/" title="tuyen dung viec lam UI-UX" target="_blank">UI-UX</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-unity/" title="tuyen dung viec lam Unity" target="_blank">Unity</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-windows-phone/" title="tuyen dung viec lam Windows Phone" target="_blank">Windows Phone</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-wordpress/" title="tuyen dung viec lam wordpress" target="_blank">Wordpress</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-seo/" title="tuyen dung viec lam SEO" target="_blank">Seo</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-mkt-online/" tuyen="" dung="" viec="" lam="" mkt="" online="" target="_blank">Marketing Online</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-xml/" title="tuyen dung viec lam XML" target="_blank">XML</a></li>	
+					</ul>				  
+				</div>							
+			</div>
+			<div class="copyright_smarjob">
+			</div>
+			<div class="f-left margin15">
+
+				<ul id="menu-footer" class="menu-bottom"><li id="menu-item-500" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-500"><a href="http://smartjob.vn/post-a-job/">POST A JOB</a></li>
+<li id="menu-item-499" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent current-menu-item menu-item-499"><a href="http://smartjob.vn/cam-nang-lap-trinh/">BLOG</a></li>
+<li id="menu-item-505" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-505"><a href="http://smartjob.vn/about-us/">About us</a></li>
+<li id="menu-item-510" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-510"><a href="http://smartjob.vn/privacy-policy/">Privacy Policy</a></li>
+</ul>				<div class="copyright" style="float:left">© Copyright <a href="http://smartjob.vn/" target="_blank">SMARTJOB</a> <span class="et-sem"><a target="_blank" href="http://dcv.vn/"></a> </span></div>
+				
+			</div>
+
+					<div class="f-right f-left-all">
+		<div class="follow font-quicksand">Follow Us</div>
+			<ul class="social-list">
+			  
+													<li><a href="http://smartjob.vn/feed/"><span class="icon-feed"></span></a></li>
+													<li><a href="https://www.facebook.com/smartjob.vn?fref=ts" target="_blank"><span class="icon-facebook"></span></a></li>
+													<li><a href="https://twitter.com/ContactSmartjob" target="_blank"><span class="icon-twitter"></span></a></li>
+													<li><a href="https://plus.google.com/105650437358815618166/posts" target="_blank"><span class="icon-google"></span></a></li>
+								<li><a href="https://www.linkedin.com/company/smartjob-jsc" target="_blank"><img src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/linked.png"></a></li>
+				<li><a href="https://www.youtube.com/channel/UCAWge7PV9j77uvqocQElGoQ" target="_blank"><img src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/youtube_logo.png"></a></li>
+							</ul>
+		</div>
+	</div>
+
+	</footer>
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!--[if lte IE 8]>
+		<script type="text/javascript">
+			Cufon.replace('.icon'); // Works without a selector engine
+			Cufon.replace('.icon:before'); // Works without a selector engine
+			jQuery(".icon").each( function(){
+				var cthis = jQuery(this);
+				cthis.append( cthis.attr("data-icon") );
+			});
+
+			Cufon.now();
+		</script>
+	<![endif]-->
+
+
+	<link rel="stylesheet" id="css-chosen-css" href="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/chosen.css" type="text/css" media="all">
+<script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/json2.js"></script>
+<script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/core.min.js"></script>
+<script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/widget.min.js"></script>
+<script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/position.min.js"></script>
+<script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/menu.min.js"></script>
+<script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/wp-a11y.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"No search results.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate."};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/autocomplete.min.js"></script>
+<script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/underscore-min.js"></script>
+<script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/backbone-min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var et_globals = {"ajaxURL":"http:\/\/smartjob.vn\/wp-admin\/admin-ajax.php","homeURL":"http:\/\/smartjob.vn","imgURL":"http:\/\/smartjob.vn\/wp-content\/themes\/SMARTJOB\/img","jsURL":"http:\/\/smartjob.vn\/wp-content\/themes\/SMARTJOB\/js","dashboardURL":"http:\/\/smartjob.vn\/dashboard\/","logoutURL":"http:\/\/smartjob.vn\/wp-login.php?action=logout&redirect_to=http%3A%2F%2Fsmartjob.vn&_wpnonce=c5bfb8c278","routerRootCompanies":"http:\/\/smartjob.vn\/companies\/","msg_login_ok":"You have been logged in as {{company }}!","msg_logout":"Logout","err_field_required":"This field cannot be blank!","err_invalid_email":"Invalid email address!","err_invalid_username":"Invalid username!","err_pass_not_matched":"Passwords does not match","plupload_config":{"max_file_size":"3mb","url":"http:\/\/smartjob.vn\/wp-admin\/admin-ajax.php","flash_swf_url":"http:\/\/smartjob.vn\/wp-includes\/js\/plupload\/plupload.flash.swf","silverlight_xap_url":"http:\/\/smartjob.vn\/wp-includes\/js\/plupload\/plupload.silverlight.xap","cv_files_allow":"pdf,doc,docx,txt,rtf","msg":{"FILE_EXTENSION_ERROR":"File extension error. Only allow  %s file extensions.","FILE_SIZE_ERROR":"This file is too big. Files must be less than %s.","FILE_DUPLICATE_ERROR":"File already present in the queue.","FILE_COUNT_ERROR":"File count error.","IMAGE_FORMAT_ERROR":"Image format either wrong or not supported.","IMAGE_MEMORY_ERROR":"Runtime ran out of available memory","HTTP_ERROR":"Upload URL might be wrong or doesn't exist."}},"is_enable_feature":"1","loading":"Loading","txt_ok":"OK","txt_cancel":"Cancel","no_job_found":"Oops! Sorry, no jobs found","form_valid_msg":"Please fill out all required fields.","anywhere":"Anywhere","view_map":"View map","page_template":"","is_single_job":null,"use_infinite_scroll":"","use_captcha":"1","job_require_fields":["user_url"]};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/job_engine.js"></script>
+<script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/front.js"></script>
+<script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/jobseeker.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var et_resume = {"no_link":"No link specified","no_location":"No location specified","no_resume_found":"Oops! Sorry, no resumes found.","pending_message":"THIS RESUME IS WAITING FOR APPROVAL TO PUBLISH.","reject_message":"THIS RESUME IS REJECTED.","date_range_invalid":"End date is invalid.","position_invalid":" Please enter your job title.","from_date_invalid":" Please select start date.","to_date_invalid":" Please select end date.","school_name_invalid":" Please enter your school name.","company_name_invalid":" Please enter your company name.","duplicate_skills":" You have already added this skill. Please enter another or select from the suggestions.","duplicate_resume_category":"You have already selected this category. Please choose another from the list.","is_free_view":"1","resumes_privacy":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/resumes.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var facebook_auth = {"appID":"726811420745180","auth_url":"http:\/\/smartjob.vn\/?action=authentication"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/facebookauth.js"></script>
+<script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/modernizr.min.js"></script><iframe name="oauth2relay861410437" id="oauth2relay861410437" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/postmessageRelay.html" tabindex="-1" aria-hidden="true" style="width: 1px; height: 1px; position: absolute; top: -100px;"></iframe>
+<script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/underscore-min.js"></script>
+<script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/backbone-min.js"></script>
+<script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/jquery.validate.min.js"></script>
+<script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/mouse.min.js"></script>
+<script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/sortable.min.js"></script>
+<script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/jquery.tinyscrollbar.min.js"></script>
+<script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/wp-embed.min.js"></script>
+<script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/chosen.jquery.js"></script>
+<script type="text/javascript" src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/je_alert.js"></script>
+                <script type="text/javascript">
+                    (function ($) {
+                        $.extend($.validator.messages, {
+                            required: "This field is required.",
+                            email: "Please enter a valid email address.",
+                            url: "Please enter a valid URL.",
+                            number: "Please enter a valid number.",
+                            digits: "Please enter only digits.",
+                            equalTo: "Please enter the same value."
+                        });
+                    })(jQuery);
+                </script>
+                <script type="text/javascript">
+        (function($) {
+
+            $(document).ready(function(){
+                if( typeof Recaptcha != "undefined" ){
+
+                    Recaptcha._alias_finish_reload = Recaptcha.finish_reload;
+                    Recaptcha.finish_reload = function (challenge, b, c) {
+                        //Do stuff with challenge here
+                        Recaptcha._alias_finish_reload(challenge, b, c);
+                        $('#recaptcha_two input[name=recaptcha_challenge_field]').val(challenge);
+                        $('#recaptcha_two img#recaptcha_challenge_image').attr('src', '//www.google.com/recaptcha/api/image?c=' + challenge);
+                        $('#recaptcha_three input[name=recaptcha_challenge_field]').val(challenge);
+                        $('#recaptcha_three img#recaptcha_challenge_image').attr('src', '//www.google.com/recaptcha/api/image?c=' + challenge);
+                    }
+                }
+            });
+
+        })(jQuery);
+    </script>
+    
+<div id="wp-a11y-speak-polite" aria-live="polite" aria-relevant="additions text" aria-atomic="true" class="screen-reader-text wp-a11y-speak-region"></div><div id="wp-a11y-speak-assertive" aria-live="assertive" aria-relevant="additions text" aria-atomic="true" class="screen-reader-text wp-a11y-speak-region"></div><div id="lean_overlay"></div><iframe src="./Lập trình cơ bản về Java_ Các loại biến trong Java (P4) - Tìm việc nhanh - Tuyển dụng &amp; việc làm lập trình viên, IT_files/saved_resource.html" style="height: 0px; width: 0px; visibility: hidden; border: none; display: none;">This frame prevents back/forward cache problems in Safari.</iframe></body></html>
